@@ -1,4 +1,5 @@
 # Fintech Review Analytics
+#Bisrat Tamrat Bekele
 
 ## Project Overview
 This project analyzes customer reviews from Ethiopian banking applications on the Google Play Store.
