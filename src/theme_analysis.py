@@ -1,13 +1,12 @@
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-def extract_keywords(texts):
+def extract_keywords(reviews):
 
     vectorizer = TfidfVectorizer(
         stop_words='english',
-        max_features=20,
-        ngram_range=(1,2)
+        max_features=10
     )
 
-    X = vectorizer.fit_transform(texts.astype(str))
+    X = vectorizer.fit_transform(reviews)
 
     return vectorizer.get_feature_names_out()
