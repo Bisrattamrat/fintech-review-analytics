@@ -1,4 +1,5 @@
 # Fintech Review Analytics
+#Bisrat Tamrat Bekele
 
 ## Project Overview
 This project analyzes customer reviews from Ethiopian banking applications on the Google Play Store as part of the 10 Academy Week 2 Challenge: **Customer Experience Analytics for Fintech Apps**.
@@ -142,7 +143,7 @@ Plots were generated using Matplotlib.
 - NLTK
 - Matplotlib
 - Scikit-learn
-- Google Play Scraper
+- Google Play S
 - PostgreSQL
 - GitHub Actions
 - Git
@@ -191,4 +192,5 @@ Future enhancements may include:
 
 # Author
 
-Developed as part of the 10 Academy Artificial Intelligence Mastery Program – Week 2 Challenge.
+Developed as part of the 10 Academy Artificial Intelligence Mastery Program – Week 2 Challeng
+
