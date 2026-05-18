@@ -1,6 +1,6 @@
 from textblob import TextBlob
 
-def classify_sentiment(text):
+def get_sentiment(text):
 
     polarity = TextBlob(str(text)).sentiment.polarity
 

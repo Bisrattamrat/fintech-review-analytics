@@ -4,7 +4,7 @@ def extract_keywords(reviews):
 
     vectorizer = TfidfVectorizer(
         stop_words='english',
-        max_features=10
+        max_features=15
     )
 
     X = vectorizer.fit_transform(reviews)

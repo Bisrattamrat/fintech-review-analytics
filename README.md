@@ -189,7 +189,20 @@ Future enhancements may include:
 - chatbot integration for complaint handling
 
 ---
+## Improvements After Feedback
 
+After receiving evaluator feedback, the project was expanded and improved by:
+
+- adding modular sentiment analysis functions inside `src/sentiment.py`
+- implementing thematic analysis and keyword extraction using TF-IDF
+- creating reusable analysis scripts inside the `src/` directory
+- adding unit tests for sentiment classification inside `tests/`
+- improving error handling in the scraping pipeline
+- generating additional visualizations for sentiment and theme analysis
+- designing a PostgreSQL database schema (`schema.sql`)
+- documenting business insights and bank-specific recommendations
+- improving repository organization and documentation
+- saving analyzed review outputs for reproducibility
 # Author
 
 Developed as part of the 10 Academy Artificial Intelligence Mastery Program – Week 2 Challeng
